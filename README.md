@@ -44,8 +44,9 @@ This is an insurance management platform that allows users to manage insurance p
 - `DataIntegrityViolationException`: Thrown when there is a violation of the data integrity rules (e.g., unique constraint violation).
 - `MethodArgumentNotValidException`: Thrown when the request body fails validation.
 - `ExceptionHandler`: Global exception handler to handle all exceptions and return a consistent error response.
-Security
+### Security
 - There is no authentication or authorization implemented in this version.
-Unit Tests
+### Unit Tests
 - Unit tests for the APIs and services have been written using JUnit and Mockito.
 - Run the tests using:`mvn test`
+
